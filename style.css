@@ -1,0 +1,120 @@
+
+ul {
+  list-style-type: none;
+}
+
+a {
+
+}
+
+#nav-bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 48px;
+  background-color: black;
+}
+
+#left-link-container {
+  position: absolute;
+  top: 0px;
+  left: 48px;
+  height: 48px;
+  border-left: 1px solid #353535;
+}
+
+#left-link-container > li {
+  display: block;
+  float: left;
+  line-height: 48px;
+  border-right: 1px solid #353535;
+  padding: 0 12px 0 12px;
+  color: white;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#left-link-container > li:hover {
+  background-color: #353535;
+}
+
+#left-link-container > li > a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+}
+
+#middle-link-container {
+  position: absolute;
+  top: 0px;
+  left: 305px;
+  height: 48px;
+}
+
+#middle-link-container > li {
+  display: block;
+  float: left;
+  line-height: 48px;
+  padding: 0 10px 0 10px;
+  color: white;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#middle-link-container > li > a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+  font-size: 13px;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+}
+
+#middle-link-container > li > a:hover {
+  color:white;
+}
+
+#mag-icon {
+  /*position: absolute;
+  top: 0px;
+  left: 650px;*/
+}
+
+
+#right-link-container {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 48px;
+}
+
+#right-link-container > li {
+  float: right;
+  line-height: 48px;
+  padding: 0 5px 0 5px;
+  color: white;
+}
+
+#right-link-container > li > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #999999;
+  font-size: 13px;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+
+}
+
+#mag-icon-link{
+  display: block;
+  overflow: hidden;
+  color: red;
+  font-size: 1px;
+  background: url("http://assets-9gag-fun.9cache.com/s/fab0aa49/1c5cce83b805c72a4317e9fccd34fcc8e03135d8/static/dist/web6/img/sprite-search.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
