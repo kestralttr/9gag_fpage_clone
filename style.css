@@ -8,7 +8,7 @@ a {
 }
 
 #nav-bar {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -126,22 +126,53 @@ a {
   top: 48px;
   left: 0;
   width: 500px;
+  margin: 10px 0 10px 5px;
 }
 
 #main-content-container > article {
   width: 100%;
-  max-height: 600px;
   object-fit: fill;
   overflow: hidden;
+  margin: 10px 0 10px 0;
 }
 
 #main-content-container > article > img {
   max-width: 100%;
   height: auto;
+  max-height: 800px;
+  margin-bottom: 5px;
 }
 
-#main-content-container > article > span {
+#main-content-container > article > h2 {
   font-size: 22px;
   font-family: Helvetica Neue;
   font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#main-content-container > article > span {
+  font-size: 12px;
+  color: grey;
+  font-family: Helvetica Neue;
+  margin: 10px 0 10px 0;
+}
+
+#vote-button-container {
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 200px;
+}
+
+#vote-button-container > li {
+  border: 1px solid black;
+  padding: 8px 8px 8px 32px;
+  font-family: Arial, Verdana;
+  background: #f0f0f0 url("https://image.freepik.com/free-icon/arrow-bold-down-ios-7-interface-symbol_318-34310.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
 }
