@@ -133,7 +133,9 @@ a {
   width: 100%;
   object-fit: fill;
   overflow: hidden;
-  margin: 10px 0 10px 0;
+  margin: 10px 0 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e8e8e8
 }
 
 #main-content-container > article > img {
