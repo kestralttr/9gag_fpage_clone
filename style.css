@@ -146,15 +146,15 @@ a {
 }
 
 #main-content-container > article > h2 {
-  font-size: 22px;
+  font-size: 20px;
   font-family: Helvetica Neue;
-  font-weight: 500;
-  margin-bottom: 5px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 #main-content-container > article > span {
   font-size: 12px;
-  color: grey;
+  color: #b5b5b5;
   font-family: Helvetica Neue;
   margin: 10px 0 10px 0;
 }
@@ -165,16 +165,75 @@ a {
   bottom: 0;
   justify-content: space-between;
   margin-top: 10px;
-  width: 200px;
+  width: 160px;
 }
 
-#vote-button-container > li {
-  border: 1px solid black;
-  padding: 8px 8px 8px 32px;
-  font-family: Arial, Verdana;
-  background: #f0f0f0 url("https://image.freepik.com/free-icon/arrow-bold-down-ios-7-interface-symbol_318-34310.jpg");
-  background-position: 0px 0px;
+#vote-button-container .upvote-button {
+  display: block;
+  width: 44px;
+  height: 34px;
+  background-image: url("http://assets-9gag-fun.9cache.com/s/fab0aa49/4bca0cc4871e0741f23e8fb4c5d6d39727c1b1e4/static/dist/web6/img/sticky-vote.png");
+  margin: 0 2px 0 2px;
+  background-position: left 1px top 1px;
+  border: 1px solid #cccccc;
   background-repeat: no-repeat;
-  background-size: contain;
+  border-radius: 3px;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto;
   cursor: pointer;
+}
+
+#vote-button-container .upvote-button > a {
+  display: block;
+}
+
+#vote-button-container .downvote-button {
+  display: block;
+  width: 44px;
+  height: 34px;
+  background-image: url("http://assets-9gag-fun.9cache.com/s/fab0aa49/4bca0cc4871e0741f23e8fb4c5d6d39727c1b1e4/static/dist/web6/img/sticky-vote.png");
+  margin: 0 2px 0 2px;
+  background-position: left 1px bottom 1px;
+  border: 1px solid #cccccc;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto;
+  cursor: pointer;
+}
+
+#vote-button-container .downvote-button > a {
+  display: block;
+}
+
+#vote-button-container .comment-button {
+  display: block;
+  width: 44px;
+  height: 34px;
+  background-image: url("http://assets-9gag-fun.9cache.com/s/fab0aa49/4bca0cc4871e0741f23e8fb4c5d6d39727c1b1e4/static/dist/web6/img/other-buttons.png");
+  margin: 0 2px 0 2px;
+  background-position: left 1px bottom 1px;
+  border: 1px solid #cccccc;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto;
+  cursor: pointer;
+}
+
+#vote-button-container .comment-button > a {
+  display: block;
+}
+
+#share-button-container {
+  display: flex;
+  float: right;
+  flex-direction: row;
+  bottom: 0;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 160px;
 }
