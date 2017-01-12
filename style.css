@@ -230,10 +230,33 @@ a {
 
 #share-button-container {
   display: flex;
-  float: right;
+  position: absolute;
+  right: 0px;
+  bottom: 55px;
+  font-family: Helvetica Neue;
+  font-size: 14px;
   flex-direction: row;
-  bottom: 0;
   justify-content: space-between;
   margin-top: 10px;
   width: 160px;
+}
+
+#share-button-container .facebook-button {
+  display: block;
+  background-color: yellow;
+  text-align: center;
+  width: 70px;
+  line-height: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+
+#share-button-container .twitter-button {
+  display: block;
+  background-color: yellow;
+  text-align: center;
+  width: 70px;
+  line-height: 20px;
+  height: 20px;
+  overflow: hidden;
 }
