@@ -15,7 +15,7 @@ a {
   height: 48px;
   background-color: black;
   z-index: 5;
-  min-width: 800px;
+  min-width: 840px;
 }
 
 #left-link-container {
@@ -99,6 +99,7 @@ a {
   line-height: 48px;
   padding: 0 5px 0 5px;
   color: white;
+  margin-right: 10px;
 }
 
 #right-link-container > li > a {
@@ -113,12 +114,14 @@ a {
 
 #mag-icon-link{
   display: block;
+  width: 20px;
+  height: 44px;
   overflow: hidden;
   color: red;
   font-size: 1px;
-  background: url("http://assets-9gag-fun.9cache.com/s/fab0aa49/1c5cce83b805c72a4317e9fccd34fcc8e03135d8/static/dist/web6/img/sprite-search.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background: transparent url("http://assets-9gag-fun.9cache.com/s/fab0aa49/1c5cce83b805c72a4317e9fccd34fcc8e03135d8/static/dist/web6/img/sprite-search.png") scroll no-repeat left 5px top 9px;
+  background-size: 32px;
+  padding: 2px 0px 2px 20px;
 }
 
 #main-content-container {
@@ -232,31 +235,46 @@ a {
   display: flex;
   position: absolute;
   right: 0px;
-  bottom: 55px;
+  bottom: 43px;
   font-family: Helvetica Neue;
-  font-size: 14px;
+  font-size: 13px;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 10px;
-  width: 160px;
+  width: 210px;
 }
 
 #share-button-container .facebook-button {
   display: block;
-  background-color: yellow;
+  background-color: #3B5998;
   text-align: center;
-  width: 70px;
-  line-height: 20px;
-  height: 20px;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  width: 80px;
+  line-height: 30px;
+  height: 30px;
   overflow: hidden;
+  background: #3B5998 url("images/FB_logo.png") scroll no-repeat left top 5px;
+  background-size: 20px;
+  padding: 2px 0px 2px 20px;
+  border-radius: 3px;
+
 }
 
 #share-button-container .twitter-button {
   display: block;
-  background-color: yellow;
   text-align: center;
-  width: 70px;
-  line-height: 20px;
-  height: 20px;
+  width: 80px;
+  line-height: 30px;
+  height: 30px;
   overflow: hidden;
+  font-family: Helvetica Neue;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  background: #1DA1F2 url("images/Twitter_logo.png") scroll no-repeat left 5px top 5px;
+  background-size: 24px;
+  padding: 2px 0px 2px 20px;
+  border-radius: 3px;
 }
