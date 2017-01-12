@@ -138,7 +138,8 @@ a {
   overflow: hidden;
   margin: 10px 0 20px 0;
   padding-bottom: 20px;
-  border-bottom: 1px solid #e8e8e8
+  border-bottom: 1px solid #e8e8e8;
+  position: relative;
 }
 
 #main-content-container > article > img {
@@ -146,6 +147,7 @@ a {
   height: auto;
   max-height: 800px;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
 #main-content-container > article > h2 {
@@ -155,11 +157,17 @@ a {
   margin-bottom: 10px;
 }
 
+#main-content-container > article > h2:hover {
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
 #main-content-container > article > span {
   font-size: 12px;
   color: #b5b5b5;
   font-family: Helvetica Neue;
   margin: 10px 0 10px 0;
+  cursor: pointer;
 }
 
 #vote-button-container {
@@ -235,7 +243,7 @@ a {
   display: flex;
   position: absolute;
   right: 0px;
-  bottom: 43px;
+  bottom: 22px;
   font-family: Helvetica Neue;
   font-size: 13px;
   flex-direction: row;
