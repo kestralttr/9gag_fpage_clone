@@ -120,7 +120,7 @@ a {
 }
 
 #search-popup {
-  display: none;;
+  display: none;
   position: absolute;
   background-color: white;
   top: 48px;
@@ -343,6 +343,7 @@ a {
 
 #sidebar-content-container h2 {
   font-size: 14px;
+  cursor: pointer;
 }
 
 #sidebar-content-container > article > a {
