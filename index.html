@@ -9,10 +9,13 @@
     <script type="text/javascript">
 
     function colorChange() {
-      if(document.getElementById("search-popup").style.display === "none") {
-        document.getElementById("search-popup").style.display = "block";
+      let searchPopup = document.getElementById("search-popup");
+      // searchPopup.style = "display:block";
+      // searchPopup.style.display = searchPopup.style.display == "block" ? "none" : "block";
+      if(!searchPopup.style.display || searchPopup.style.display == "none") {
+        searchPopup.style = "display:block";
       } else {
-        document.getElementById("search-popup").style.display = "none";
+        searchPopup.style = "display:none";
       }
     }
 
@@ -40,7 +43,7 @@
         <li><a href="http://www.google.com" target="_blank">Sign Up</a></li>
         <li><a href="http://www.google.com" target="_blank">Log In</a></li>
         <li>
-          <a onclick="colorChange()" target="_blank" id="mag-icon-link"></a>
+          <a onClick="colorChange()" target="_blank" id="mag-icon-link"></a>
           <div>
             <input id="search-popup">
             </input>
